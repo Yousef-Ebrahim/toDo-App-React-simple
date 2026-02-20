@@ -7,12 +7,10 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const addTask = (task) => {
     setTasks([...tasks, task]);
-    
   };
-  const deleteTask = (taskId) => {
-    setTasks(tasks.filter((task) => task.id !== taskId));
+  const deleteTask = (id) => {
+    setTasks((prev) => prev.filter((task) => task.id !== id));
   };
-  console.log(tasks);
   return (
     <div className="min-h-screen bg-linear-to-br from-base-200 to-base-300 py-10">
       <div className="max-w-xl mx-auto space-y-6">
@@ -26,6 +24,7 @@ function App() {
             description={task.description}
             priority={task.priority}
             dueDate={task.dueDate}
+            id={task.id}
           />
         ))}
       </div>

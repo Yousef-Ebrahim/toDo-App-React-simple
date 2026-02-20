@@ -1,4 +1,5 @@
 export default function TaskCard({
+  id,
   deleteTask,
   title,
   description,
@@ -20,7 +21,7 @@ export default function TaskCard({
         {dueDate && <span className="text-gray-500">Due: {dueDate}</span>}
 
         <button
-          onClick={deleteTask}
+          onClick={() => deleteTask(id)}
           type="button"
           className="btn btn-sm btn-error btn-outline hover:scale-105 transition duration-200"
         >
