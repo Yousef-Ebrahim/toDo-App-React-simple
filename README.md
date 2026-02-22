@@ -7,10 +7,7 @@ This project demonstrates component structure, state management, filtering, sort
 
 ## 🚀 Live Demo
 
-(Add your deployed link here after deploying on Vercel or Netlify)
-
----
-
+https://todo-app-react-lilac-rho.vercel.app/
 ## 📌 Features
 
 - ✅ Add new tasks
