@@ -92,15 +92,18 @@ http://localhost:5173
 
 ## 📸 Screenshots
 
-(Add screenshots here)
+## 📸 Screenshots
 
-Example:
+### 🏠 Main View
+![Main](./screenshots/1.png)
 
-```
-![App Screenshot](./screenshot.png)
-```
+### ➕ Adding Task
+![Add](./screenshots/2.png)
+### chosing priority 
+![choose](./screenshots/3.png)
 
----
+### sorting tasks
+![Dark](./screenshots/5.png)
 
 ## 📈 Future Improvements
 
