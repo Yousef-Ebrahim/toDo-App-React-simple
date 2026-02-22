@@ -1,16 +1,127 @@
-# React + Vite
+# 📝 React ToDo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and simple Task Management application built with **React**.  
+This project demonstrates component structure, state management, filtering, sorting, and data persistence using localStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+(Add your deployed link here after deploying on Vercel or Netlify)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add new tasks
+- 🗑 Delete tasks
+- ✔️ Mark tasks as completed
+- 🎯 Filter tasks by priority (All, High, Medium, Low)
+- 📊 Sort tasks by priority
+- 💾 Persist tasks using localStorage
+- 🌙 Dark mode friendly UI
+
+---
+
+## 🛠 Tech Stack
+
+- React
+- Vite
+- TailwindCSS
+- DaisyUI
+- JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │    ├── TaskCard.jsx
+ │    ├── TaskForm.jsx
+ │    ├── PriorityFilter.jsx
+ ├── App.jsx
+ ├── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Yousef-Ebrahim/toDo-App-React-simple.git
+```
+
+Navigate into the project:
+
+```bash
+cd toDo-App-React-simple
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧠 What I Practiced in This Project
+
+- Component-based architecture
+- Lifting state up
+- Controlled components
+- Array methods (filter, sort, map)
+- Conditional rendering
+- Clean UI structuring
+- Git & GitHub workflow
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+Example:
+
+```
+![App Screenshot](./screenshot.png)
+```
+
+---
+
+## 📈 Future Improvements
+
+- Drag & drop tasks
+- Due date sorting
+- Edit task functionality
+- Theme switcher
+- Backend integration
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+### 👨‍💻 Author
+
+Yousef Ebrahim  
+Frontend React Developer (in progress 🚀)
